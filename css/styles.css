@@ -1,0 +1,5 @@
+@import url("bootstrap.css");
+
+.jumbotron{
+    background-color: transparent !important;
+}
