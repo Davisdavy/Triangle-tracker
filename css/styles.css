@@ -109,12 +109,12 @@ button:hover{
         width: 180px;
         height: 0px;
         position: absolute;
-        left: 35%;
+        left: 30%;
     }
     .nickname{
         position: absolute;
         top: 25%;
-        left: 42%;
+        left: 39%;
     }
     .nickname input{
         width: 70%;
