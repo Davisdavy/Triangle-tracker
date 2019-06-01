@@ -3,7 +3,7 @@
 .jumbotron{
     background-color: transparent !important;
     text-align: center;
-    color: rgb(224, 224, 224);
+    color: rgb(221, 150, 68);
 }
 body{
     background: url("images/background.jpg") 50% 50%;
@@ -31,7 +31,7 @@ body{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-h2{
+h3{
  font-family: 'Roboto', sans-serif;
  font-weight: lighter;
  color: rgb(224, 224, 224);
@@ -53,6 +53,10 @@ input{
     font-weight: lighter;
     border-radius: 5px;
 }
+input:hover{
+    background: rgba(206, 110, 0,.3);
+    transition: 1s;
+}
 
 button{
     cursor: pointer;
@@ -61,13 +65,13 @@ button{
     height: 50px;
     border: 0px;
     font-weight: lighter;
-    background: rgb(48, 47, 47);
+    background: rgb(206, 110, 0);
     color: rgb(255, 255, 255);
     border-radius: 5px;
 }
 button:hover{
     color: rgb(0, 0, 0);
-    background-color: rgb(218, 0, 0);
+    background-color: transparent;
     transition: 1s;
 }
 
