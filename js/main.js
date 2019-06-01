@@ -9,20 +9,17 @@
     if(side1==side2 && side2==side3) 
     {
         /* If all sides are equal */
-       document.getElementById("Result");
-       element.innerHTML="Equilateral triangle.";
+       alert("Equilateral triangle.");
     }
     else if(side1==side2 || side1==side3 || side2==side3) 
     {
         /* If any two sides are equal */
-       document.getElementById("Result");
-       element.innerHTML="Isosceles triangle.";
+      alert("Isosceles triangle.");
     }
     else 
     {
         /* If none sides are equal */
-       document.getElementById("Result");
-       element.innerHTML="Scalene triangle.";
+       alert("Scalene triangle.");
     }
 }
 /////////**************ADD NAME FUNCTION****************** */

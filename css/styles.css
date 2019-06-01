@@ -55,7 +55,7 @@ input{
 }
 .result{
     position: absolute;
-    top: 83%;
+    top: 80%;
     left: 38%;
     background: none;
 }
@@ -81,11 +81,14 @@ button:hover{
 }
 
 @media screen and (max-width: 768px){
+    body{
+        height: 140vh;
+    }
     .disk{
         border-radius: 5px;
         padding-left: 0.5em;
         padding-right: 0.5em;
-        top: 55%;
+        top: 100%;
     }
     button{
         background: red;
@@ -95,7 +98,16 @@ button:hover{
         background-color: rgb(48, 47, 47);
         transition: 1s;
     }
+   
     h2{
         font-size: 40px;
+    }
+    .nickname{
+        position: absolute;
+        top: 20%;
+        left: 44%;
+    }
+    .nickname input{
+        width: 50%;
     }
 }
