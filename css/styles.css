@@ -53,6 +53,16 @@ input{
     font-weight: lighter;
     border-radius: 5px;
 }
+.result{
+    position: absolute;
+    top: 83%;
+    left: 38%;
+    background: none;
+}
+.result input{
+    background-color: rgb(56, 56, 56);
+    
+}
 button{
     cursor: pointer;
     width: 319px;
@@ -69,6 +79,7 @@ button:hover{
     background-color: rgb(218, 0, 0);
     transition: 1s;
 }
+
 @media screen and (max-width: 768px){
     .disk{
         border-radius: 5px;
