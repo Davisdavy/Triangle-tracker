@@ -6,23 +6,22 @@
         var side2 =parseInt(document.getElementById("plot2").value);
         var side3 = parseInt(document.getElementById("plot3").value);
         
-    if(side1==side2 && side2==side3) 
-    {
-        /* If all sides are equal */
-       alert("Equilateral triangle.");
-    }
-    else if(side1==side2 || side1==side3 || side2==side3) 
-    {
-        /* If any two sides are equal */
-      alert("Isosceles triangle.");
-    }
-    else 
-    {
-        /* If none sides are equal */
-       alert("Scalene triangle.");
-    }
+        if(side1<(side2+side3)&&side2<(side1+side3)&&side3<(side1+side2))
+        {
+            confirm("It is a Triangle.");
+            if(side1==side2&&side1==side3&&side2==side3)
+            alert(" It is a Equilateral Triangle.");
+            else if(side1==side2||side1==side3||side2==side3)
+            alert(" It is a Isosceles Triangle.");
+            else if((side1*side1)==(side2*side2)+(side3*side3)||(side2*side2)==(side1*side1)+(side3*side3)||(side3*side3)==(side1*side1)+(side2*side2))
+            alert(" It is a Right-angle Triangle.");
+            else if(side1!=side2&&side1!=side3&&side2!=side3)
+            alert(" It is a Scalene Triangle.");
+        }
+        else
+        alert("This Triangle Can not be formed");
 }
-/////////**************ADD NAME FUNCTION****************** */
+    /////////**************ADD NAME FUNCTION****************** */
 var x = 0;
 var array = Array();
 

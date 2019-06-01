@@ -53,16 +53,7 @@ input{
     font-weight: lighter;
     border-radius: 5px;
 }
-.result{
-    position: absolute;
-    top: 80%;
-    left: 38%;
-    background: none;
-}
-.result input{
-    background-color: rgb(233, 233, 233);
-    
-}
+
 button{
     cursor: pointer;
     width: 319px;
