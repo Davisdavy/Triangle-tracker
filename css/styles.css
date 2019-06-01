@@ -1,5 +1,7 @@
+/****************IMPORT FILES***********************/
 @import url("bootstrap.css");
-
+/*********************************************************************/
+/******************************GENERAL STYLE***************************************/
 .jumbotron{
     background-color: transparent !important;
     text-align: center;
@@ -81,7 +83,8 @@ button:hover{
     background-color: transparent;
     transition: 1s;
 }
-
+/**********************************************************************************/
+/**********************MEDIA QUERIES***********************************************/
 @media screen and (max-width: 768px){
     body{
         height: 140vh;
