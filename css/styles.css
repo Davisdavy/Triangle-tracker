@@ -5,6 +5,13 @@
     text-align: center;
     color: rgb(221, 150, 68);
 }
+.line{
+    border: 1px solid rgb(224, 224, 224);
+    width: 150px;
+    height: 0px;
+    position: absolute;
+    left: 45%;;
+}
 body{
     background: url("images/background.jpg") 50% 50%;
     background-size: cover;
@@ -97,12 +104,19 @@ button:hover{
     h2{
         font-size: 40px;
     }
+    .line{
+        border: 1px solid rgb(224, 224, 224);
+        width: 180px;
+        height: 0px;
+        position: absolute;
+        left: 35%;
+    }
     .nickname{
         position: absolute;
-        top: 20%;
-        left: 44%;
+        top: 25%;
+        left: 42%;
     }
     .nickname input{
-        width: 50%;
+        width: 70%;
     }
 }
