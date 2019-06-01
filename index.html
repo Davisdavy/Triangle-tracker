@@ -13,6 +13,10 @@
         <div class="jumbotron">
             <h1>Triangle Tracker App</h1>
         </div>
+        <input type="text" id="text1" placeholder=" Nickname.."></input>
+<input type="button" id="button1" value="Add" onclick="add_element_to_array();"></input>
+<input type="button" id="button2" value="Display" onclick="display_array();"></input>
+<div id="next"></div>
         <div class="disk">
         <form action="">
             <h2>Track</h2>
@@ -22,10 +26,10 @@
             <button onclick="logicCheck();">Check</button>
         </form>
         </div>
-        <div class="result">
-            <input type="text" id="Result" placeholder="Result will Show here.." readonly>
-        </div>
     </div>
+    <div class="result">
+            <input type="text"  placeholder="Result will show here.." readonly id="Result">
+        </div>
     <script src="js/main.js"></script>
 </body>
 </html>
