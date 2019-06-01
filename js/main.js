@@ -9,16 +9,19 @@
     if(side1==side2 && side2==side3) 
     {
         /* If all sides are equal */
-        document.getElementById("Result").innerHTML="Equilateral triangle.";
+       var element = document.getElementById("Result");
+       element.innerHTML="Equilateral triangle.";
     }
     else if(side1==side2 || side1==side3 || side2==side3) 
     {
         /* If any two sides are equal */
-        document.getElementById("Result").innerHTML="Isosceles triangle.";
+       var element= document.getElementById("Result");
+       element.innerHTML="Isosceles triangle.";
     }
     else 
     {
         /* If none sides are equal */
-        document.getElementById("Result").innerHTML="Scalene triangle.";
+       var element= document.getElementById("Result");
+       element.innerHTML="Scalene triangle.";
     }
 }
