@@ -32,10 +32,11 @@ Here the logic and base of the app is dealt with. Functions with if else stateme
 
 ## Support and contact details
  Email me!! davisdavy96@gmail.com
+ Slack @moringaschool (Davis W)
 ### License
 MIT License
 
-Copyright (c) [2019] [fullname]
+Copyright (c) [2019] [Wafula Davis]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
