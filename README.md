@@ -1,6 +1,6 @@
-# {Traingle Tracker}
-#### {This simple application is tracking app on the type of triangle a user requests to see.}, {2019,June}
-#### By **{Davis Wafula}**
+# Traingle Tracker
+#### This simple application is tracking app on the type of triangle a user requests to see.}, {2019,June
+#### By **Davis Wafula ![](https://github.com/Davisdavy)**
 ## Description
 A user enters his nickname ad requests to view it as an added member and then enters
 three values of triangle sides and in return a confirmattion of whether it is indeed a triangle and if accepted the type of the triangle is alerted. }
