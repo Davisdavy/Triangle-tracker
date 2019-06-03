@@ -8,19 +8,18 @@
         
         if(side1<(side2+side3)&&side2<(side1+side3)&&side3<(side1+side2))
         {
-            confirm("It is a Triangle.");
+            confirm("The sides can form a triangle.");
             if(side1==side2&&side1==side3&&side2==side3)
             alert(" It is a Equilateral Triangle.");
             else if(side1==side2||side1==side3||side2==side3)
             alert(" It is a Isosceles Triangle.");
-            else if((side1*side1)==(side2*side2)+(side3*side3)||(side2*side2)==(side1*side1)+(side3*side3)||(side3*side3)==(side1*side1)+(side2*side2))
-            alert(" It is a Right-angle Triangle.");
             else if(side1!=side2&&side1!=side3&&side2!=side3)
             alert(" It is a Scalene Triangle.");
         }
         else
         alert("This Triangle Can not be formed");
 }
+
     /////////**************ADD NAME FUNCTION****************** */
 var x = 0;
 var array = Array();

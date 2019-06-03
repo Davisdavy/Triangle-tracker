@@ -40,6 +40,7 @@ body{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
 h3{
  font-family: 'Roboto', sans-serif;
  font-weight: lighter;
@@ -48,6 +49,9 @@ h3{
  margin-top: 0px;
  text-align: center;
 } 
+.icon1{
+    color: #fff;
+}
 input{
     display: block;
     width: 320px;
@@ -63,7 +67,7 @@ input{
     border-radius: 5px;
 }
 input:hover{
-    background: rgba(206, 110, 0,.3);
+    background: rgba(206, 0, 0, 0.3);
     transition: 1s;
 }
 
