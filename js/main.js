@@ -10,9 +10,9 @@
         {
             confirm("The sides can form a triangle.");
             if(side1==side2&&side1==side3&&side2==side3)
-            alert(" It is a Equilateral Triangle.");
+            alert(" It is an Equilateral Triangle.");
             else if(side1==side2||side1==side3||side2==side3)
-            alert(" It is a Isosceles Triangle.");
+            alert(" It is an Isosceles Triangle.");
             else if(side1!==side2&&side1!==side3&&side2!==side3)
             alert(" It is a Scalene Triangle.");
         }

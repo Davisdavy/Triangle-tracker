@@ -4,6 +4,14 @@
 ## Description
 A user enters his nickname ad requests to view it as an added member and then enters
 three values of triangle sides and in return a confirmattion of whether it is indeed a triangle and if accepted the type of the triangle is alerted.
+## Behaviour Driven Development (BDD)
+| Behaviour expected to be handled | Input Example              | Output Example            |
+| -------------------------------- | -------------------------- |--------------------------            
+| Equilateral Triangle             | side1= 5,side2= 5,side3= 5 |confirm(ok) alert-This triangle can be formed,alert-It is an equilateral|
+| Isosceles Triangle           | side1= 5,side2= 5,side3= 10 |confirm(ok) alert-This triangle can be formed,alert-It is an Iscosceles Triangle|
+| Scalene Triangle             | side1= 2,side2= 3,side3= 4 |confirm(ok) alert-This triangle can be formed,alert-It is s scalene Triangle|
+| Invalid Triangle             | side1= ,side2= 5,side3= 5 |confirm(ok) alert-This triangle can not be formed|
+
 ## Setup/Installation Requirements
 * Load the gh-pages and ave a view on your favorite web browser.
 
