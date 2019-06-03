@@ -13,7 +13,7 @@
             alert(" It is a Equilateral Triangle.");
             else if(side1==side2||side1==side3||side2==side3)
             alert(" It is a Isosceles Triangle.");
-            else if(side1!=side2&&side1!=side3&&side2!=side3)
+            else if(side1!==side2&&side1!==side3&&side2!==side3)
             alert(" It is a Scalene Triangle.");
         }
         else
